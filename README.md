@@ -4,6 +4,7 @@ Repositório contendo a atividade obrigatória referente ao Módulo 05 do curso 
 
 ## Estrutura do Projeto
 
+```
 /bomgosto-DB/
 ├── SQL/
 │ ├──1-schema/
@@ -14,6 +15,7 @@ Repositório contendo a atividade obrigatória referente ao Módulo 05 do curso 
 | └── 3-reports
 | └── reports.sql <-- Inclui as consultas SQL referentes às seguintes questões propostas abaixo
 └── README.md
+```
 
 ## Atividade Proposta
 
@@ -51,3 +53,7 @@ Caso utilize outro cliente SQL, copie cada consulta do arquivo insert_data.sql e
 
 Cliente de Banco de dados compatível com SQL padrão (PostgreSQL ou MySQL).
 O Usuário deve ter permissão de administrador (sudo) para criar e manipular tabelas.
+
+```
+
+```
