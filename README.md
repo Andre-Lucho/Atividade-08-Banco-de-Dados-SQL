@@ -19,7 +19,8 @@ Repositório contendo a atividade obrigatória referente ao Módulo 05 do curso 
 
 ## Atividade Proposta
 
-A cafeteria BomGosto deseja controlar as suas vendas de café. A BomGosto controla suas vendas a partir de uma comanda. Uma comanda tem um código único, data, o número da mesa do cliente e o nome do cliente registrados. Nos itens da comanda é possível relacionar vários cafés listados no cardápio que foram vendidos. Cada item da comanda possui o código do cardápio e a quantidade requisitada deste e, não é possível inserir o mesmo código de cardápio mais de uma vez na mesma comanda. No cardápio é apresentado o nome único do café, a descrição da sua composição e o preço unitário.
+A cafeteria BomGosto deseja controlar as suas vendas de café.<br>
+A BomGosto controla suas vendas a partir de uma comanda.<br>Uma comanda tem um código único, data, o número da mesa do cliente e o nome do cliente registrados.<br>Nos itens da comanda é possível relacionar vários cafés listados no cardápio que foram vendidos.<br>Cada item da comanda possui o código do cardápio e a quantidade requisitada deste e, não é possível inserir o mesmo código de cardápio mais de uma vez na mesma comanda.<br>No cardápio é apresentado o nome único do café, a descrição da sua composição e o preço unitário.
 
 Desenvolva os scripts SQL para atender cada uma das questões abaixo:
 
@@ -35,25 +36,26 @@ Desenvolva os scripts SQL para atender cada uma das questões abaixo:
 
 # Como Utilizar
 
-1. Criar o banco de dados
+1. Criar o banco de dados:
 
+```
 CREATE DATABASE bom_gosto;
+```
 
-2. Acessar o banco
+2. Acessar o banco:
 
+```
 psql -U seu_usuario -d bomgosto-db -f sql/1-schema/tables.sql
+```
 
-3. Executar as consultas
+3. Executar as consultas:
 
+```
 psql -U seu_usuario -d bomgosto-db -f sql/2-data/insert_data.sql
+```
 
 Caso utilize outro cliente SQL, copie cada consulta do arquivo insert_data.sql e execute diretamente no cliente SQL de sua preferência (DBeaver, pgAdmin, MySQL Workbench, etc.).
 
 ## Requisitos
 
-Cliente de Banco de dados compatível com SQL padrão (PostgreSQL ou MySQL).
-O Usuário deve ter permissão de administrador (sudo) para criar e manipular tabelas.
-
-```
-
-```
+Cliente de Banco de dados compatível com SQL padrão (PostgreSQL ou MySQL).<br>O Usuário deve ter permissão de administrador (sudo) para criar e manipular tabelas.
